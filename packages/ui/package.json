@@ -1,0 +1,16 @@
+{
+  "name": "@solid-blocks/ui",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonrepo/solid-blocks",
+    "directory": "packages/ui"
+  },
+  "packemon": {
+    "platform": "browser"
+  }
+}
