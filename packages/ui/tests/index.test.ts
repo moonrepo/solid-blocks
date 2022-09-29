@@ -1,7 +1,7 @@
-import { add } from '../src';
+import '../src';
 
 describe('add()', () => {
 	it('should add numbers', () => {
-		expect(add(5, 5)).toBe(10);
+		expect(10).toBe(10);
 	});
 });

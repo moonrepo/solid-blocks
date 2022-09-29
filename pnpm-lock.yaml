@@ -7,6 +7,7 @@ importers:
       '@babel/core': ^7.19.1
       '@moonrepo/cli': ^0.15.0
       '@moonrepo/dev': ^1.0.0
+      '@types/jest': ^29.0.3
       babel-preset-moon: ^1.0.2
       eslint: ^8.23.1
       eslint-config-moon: ^1.0.3
@@ -22,6 +23,7 @@ importers:
       '@babel/core': 7.19.3
       '@moonrepo/cli': 0.15.0
       '@moonrepo/dev': 1.0.0
+      '@types/jest': 29.0.3
       babel-preset-moon: 1.0.2_@babel+core@7.19.3
       eslint: 8.24.0
       eslint-config-moon: 1.0.3_hhcazuc4oeis7qzt6ahd26ivk4
@@ -35,7 +37,10 @@ importers:
       typescript: 4.8.4
 
   packages/ui:
-    specifiers: {}
+    specifiers:
+      solid-js: ^1.5.7
+    devDependencies:
+      solid-js: 1.5.7
 
 packages:
 
@@ -3168,6 +3173,10 @@ packages:
       cssom: 0.3.8
     dev: true
 
+  /csstype/3.1.1:
+    resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+    dev: true
+
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: true
@@ -6168,6 +6177,12 @@ packages:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
+    dev: true
+
+  /solid-js/1.5.7:
+    resolution: {integrity: sha512-L1UuyMuZZARAwzXo5NZDhE6yxc14aqNbVOUoGzvlcxRZo1Cm4ExhPV0diEfwDyiKG/igqNNLkNurHkXiI5sVEg==}
+    dependencies:
+      csstype: 3.1.1
     dev: true
 
   /source-map-support/0.5.13:

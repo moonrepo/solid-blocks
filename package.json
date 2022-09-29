@@ -12,6 +12,7 @@
     "@babel/core": "^7.19.1",
     "@moonrepo/cli": "^0.15.0",
     "@moonrepo/dev": "^1.0.0",
+    "@types/jest": "^29.0.3",
     "babel-preset-moon": "^1.0.2",
     "eslint": "^8.23.1",
     "eslint-config-moon": "^1.0.3",
