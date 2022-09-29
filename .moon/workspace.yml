@@ -4,6 +4,7 @@ extends: 'https://raw.githubusercontent.com/moonrepo/dev/master/.moon/oss/worksp
 
 projects:
   - 'packages/*'
+  - 'web'
 
 node:
   packageManager: 'pnpm'

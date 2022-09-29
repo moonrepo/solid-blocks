@@ -1,15 +1,15 @@
 {
+  "extends": "../tsconfig.options.json",
   "compilerOptions": {
-    "strict": true,
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
+    "emitDeclarationOnly": false,
     "noEmit": true,
-    "isolatedModules": true
-  }
+    "types": [
+      "vite/client"
+    ]
+  },
+  "references": [
+    {
+      "path": "../packages/ui"
+    }
+  ]
 }

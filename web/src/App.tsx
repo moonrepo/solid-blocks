@@ -1,12 +1,14 @@
+/* eslint-disable no-console */
+
 import type { Component } from 'solid-js';
 import { Button, ButtonProps } from '@solid-blocks/ui/src/Button';
 import styles from './App.module.css';
 
 function BrandButton(props: ButtonProps) {
-	return <Button {...props} class={{ outer: 'w100 py-2 px-3', before: 'pr-2', after: 'pl-2' }} />;
+	return <Button {...props} class={{ after: 'pl-2', before: 'pr-2', outer: 'w100 py-2 px-3' }} />;
 }
 
-const App: Component = () => (
+export const App: Component = () => (
 	<div class={styles.App}>
 		<BrandButton onPress={console.log}>Click me (button)!</BrandButton>
 		<br />
@@ -15,5 +17,3 @@ const App: Component = () => (
 		</BrandButton>
 	</div>
 );
-
-export default App;

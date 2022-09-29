@@ -1,8 +1,6 @@
 {
   "extends": "../../tsconfig.options.json",
   "compilerOptions": {
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
     "outDir": "../../.moon/cache/types/packages/ui"
   },
   "include": [

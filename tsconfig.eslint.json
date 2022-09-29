@@ -2,10 +2,11 @@
   "extends": "./tsconfig.options.json",
   "include": [
     "packages/**/*",
-    "web/src/**/*"
+    "web/**/*"
   ],
   "exclude": [
     "**/cjs/**/*",
+    "**/coverage/**/*",
     "**/dts/**/*",
     "**/lib/**/*",
     "**/node_modules/**/*"
