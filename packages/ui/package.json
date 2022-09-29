@@ -16,6 +16,9 @@
   "peerDependencies": {
     "solid-js": "^1.5.0"
   },
+  "dependencies": {
+    "@solid-aria/primitives": "^0.4.0"
+  },
   "devDependencies": {
     "solid-js": "^1.5.7"
   },
