@@ -28,4 +28,5 @@ node_modules/
 
 # Moon
 .moon/cache
+.moon/docker
 .moon/types
