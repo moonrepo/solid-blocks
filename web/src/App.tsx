@@ -2,6 +2,7 @@
 
 import type { Component } from 'solid-js';
 import { Button, ButtonProps } from '../../packages/ui/src/Button';
+import { Link } from '../../packages/ui/src/typography/Link';
 import { Text } from '../../packages/ui/src/typography/Text';
 import { Heading } from '../../packages/ui/src/typography/Heading';
 import styles from './App.module.css';
@@ -20,6 +21,14 @@ export const App: Component = () => (
 		</BrandButton>
 		<br />
 		<br />
+
+		<h1>Link</h1>
+		<Text>
+			<Link to="#" onPress={console.log} target="_blank">
+				Click me (link)!
+			</Link>
+			<Link onPress={console.log}>Click me (button)!</Link>
+		</Text>
 
 		<h1>Text</h1>
 		<Text class="text">Some string of text</Text>
