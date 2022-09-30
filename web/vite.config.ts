@@ -8,6 +8,9 @@ export default defineConfig({
 	},
 	plugins: [solidPlugin()],
 	server: {
-		port: 3000,
+		port: process.env.HISTOIRE ? 6006 : 3000,
+	},
+	histoire: {
+		// your Histoire configuration
 	},
 });

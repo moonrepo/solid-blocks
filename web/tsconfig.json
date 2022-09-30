@@ -4,7 +4,8 @@
     "emitDeclarationOnly": false,
     "noEmit": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "histoire"
     ]
   },
   "references": [
