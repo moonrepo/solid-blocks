@@ -3,6 +3,7 @@
 import type { Component } from 'solid-js';
 import { Button, ButtonProps } from '../../packages/ui/src/Button';
 import { Text } from '../../packages/ui/src/typography/Text';
+import { Heading } from '../../packages/ui/src/typography/Heading';
 import styles from './App.module.css';
 
 function BrandButton(props: ButtonProps) {
@@ -28,5 +29,20 @@ export const App: Component = () => (
 		<Text as="data" value="asds">
 			Some string of text
 		</Text>
+
+		<h1>Heading</h1>
+		<Heading class="class" level={1}>
+			Level 1
+		</Heading>
+		<Heading id="id" level={2}>
+			Level 2
+		</Heading>
+		<Heading level={3}>Level 3</Heading>
+		<Heading level={4}>Level 4</Heading>
+		<Heading level={5}>Level 5</Heading>
+		<Heading level={6}>Level 6</Heading>
+		<Heading class="class" level={1} as="p">
+			Level 1
+		</Heading>
 	</div>
 );
