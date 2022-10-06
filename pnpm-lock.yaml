@@ -40,10 +40,17 @@ importers:
 
   packages/histoire-plugin-solid:
     specifiers:
+      '@histoire/shared': ^0.11.0
       histoire: ^0.11.0
+      hyper-dom-expressions: ^0.34.12
+      solid-js: ^1.5.7
       vite: ^3.0.9
+    dependencies:
+      '@histoire/shared': 0.11.0_vite@3.1.4
     devDependencies:
       histoire: 0.11.0_vite@3.1.4
+      hyper-dom-expressions: 0.34.12
+      solid-js: 1.5.7
       vite: 3.1.4
 
   packages/ui:
@@ -5209,6 +5216,10 @@ packages:
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
+    dev: true
+
+  /hyper-dom-expressions/0.34.12:
+    resolution: {integrity: sha512-mz6lUmtWt16Xx4hHjnN32QPV19gfy6Lh+C/ASyn+6Hxsgv2+8Q4P552etfNnhgoIE4c7foRSlvow5OU6m6ljmA==}
     dev: true
 
   /i18next/21.9.2:

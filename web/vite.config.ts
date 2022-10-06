@@ -6,11 +6,8 @@ export default defineConfig({
 	build: {
 		target: 'esnext',
 	},
-	plugins: [solidPlugin()],
+	plugins: [solidPlugin({ ssr: true })],
 	server: {
 		port: process.env.HISTOIRE ? 6006 : 3000,
-	},
-	histoire: {
-		// your Histoire configuration
 	},
 });

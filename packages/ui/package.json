@@ -11,7 +11,8 @@
     "directory": "packages/ui"
   },
   "packemon": {
-    "platform": "browser"
+    "format": "lib",
+    "platform": "node"
   },
   "peerDependencies": {
     "solid-js": "^1.5.0"
@@ -23,7 +24,7 @@
     "solid-js": "^1.5.7"
   },
   "types": "./dts/index.d.ts",
-  "main": "./lib/index.js",
+  "main": "./esm/index.js",
   "module": "./esm/index.js",
   "exports": {
     "./package.json": "./package.json",
@@ -32,9 +33,9 @@
       "browser": {
         "module": "./esm/index.js",
         "import": "./esm/index.js",
-        "default": "./lib/index.js"
+        "default": "./esm/index.js"
       },
-      "default": "./lib/index.js"
+      "default": "./esm/index.js"
     }
   },
   "files": [
