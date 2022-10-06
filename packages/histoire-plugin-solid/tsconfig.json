@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/packages/histoire-plugin-solid"
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "references": []
+}
