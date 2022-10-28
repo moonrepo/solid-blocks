@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.options.json",
+  "include": [
+    "packages/**/*",
+    "web/**/*"
+  ],
+  "exclude": [
+    "**/cjs/**/*",
+    "**/coverage/**/*",
+    "**/dts/**/*",
+    "**/lib/**/*",
+    "**/node_modules/**/*"
+  ]
+}

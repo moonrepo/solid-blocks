@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.options.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": false,
+    "noEmit": true,
+    "types": [
+      "vite/client",
+      "histoire"
+    ]
+  },
+  "references": [
+    {
+      "path": "../packages/ui"
+    }
+  ]
+}

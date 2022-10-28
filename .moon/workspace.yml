@@ -1,0 +1,12 @@
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+
+extends: 'https://raw.githubusercontent.com/moonrepo/dev/master/.moon/oss/workspace.yml'
+
+projects:
+  - 'packages/*'
+  - 'web'
+
+node:
+  packageManager: 'pnpm'
+  pnpm:
+    version: '7.12.1'

@@ -1,0 +1,64 @@
+{
+  "name": "histoire-plugin-solid",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonrepo/solid-blocks",
+    "directory": "packages/histoire-plugin-solid"
+  },
+  "packemon": {
+    "format": "lib",
+    "platform": "node",
+    "inputs": {
+      "index": "src/index.ts",
+      "client": "src/client.ts",
+      "server": "src/server.ts"
+    }
+  },
+  "peerDependencies": {
+    "histoire": ">=0.11.0",
+    "solid-js": "^1.5.0"
+  },
+  "devDependencies": {
+    "histoire": "^0.11.0",
+    "solid-js": "^1.5.7",
+    "vite": "^3.0.9"
+  },
+  "dependencies": {
+    "@histoire/shared": "^0.11.0"
+  },
+  "types": "./dts/index.d.ts",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=14.15.0",
+    "npm": ">=6.14.0"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./collect": {
+      "types": "./dts/server.d.ts",
+      "node": "./lib/server.js",
+      "default": "./lib/server.js"
+    },
+    "./*": {
+      "types": "./dts/*.d.ts",
+      "node": "./lib/*.js",
+      "default": "./lib/*.js"
+    },
+    ".": {
+      "types": "./dts/index.d.ts",
+      "node": "./lib/index.js",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "dts/**/*.d.ts",
+    "lib/**/*.{js,map}",
+    "mjs/**/*.{mjs,map}",
+    "src/**/*.{ts,tsx,json}"
+  ]
+}

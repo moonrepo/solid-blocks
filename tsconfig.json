@@ -1,5 +1,15 @@
 {
   "extends": "./tsconfig.options.json",
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "packages/histoire-plugin-solid"
+    },
+    {
+      "path": "packages/ui"
+    },
+    {
+      "path": "web"
+    }
+  ]
 }

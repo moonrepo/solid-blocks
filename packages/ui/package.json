@@ -1,0 +1,47 @@
+{
+  "name": "@solid-blocks/ui",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonrepo/solid-blocks",
+    "directory": "packages/ui"
+  },
+  "packemon": {
+    "format": "lib",
+    "platform": "node"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.5.0"
+  },
+  "dependencies": {
+    "@solid-aria/primitives": "^0.4.0"
+  },
+  "devDependencies": {
+    "solid-js": "^1.5.7"
+  },
+  "types": "./dts/index.d.ts",
+  "main": "./esm/index.js",
+  "module": "./esm/index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dts/index.d.ts",
+      "browser": {
+        "module": "./esm/index.js",
+        "import": "./esm/index.js",
+        "default": "./esm/index.js"
+      },
+      "default": "./esm/index.js"
+    }
+  },
+  "files": [
+    "dts/**/*.d.ts",
+    "esm/**/*.{js,map}",
+    "lib/**/*.{js,map}",
+    "src/**/*.{ts,tsx,json}"
+  ]
+}

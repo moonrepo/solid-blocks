@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview",
+    "start": "vite",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@solid-blocks/ui": "workspace:*",
+    "histoire": "^0.11.0",
+    "histoire-plugin-solid": "workspace:*",
+    "solid-js": "^1.5.7",
+    "typescript": "^4.8.2",
+    "vite": "^3.0.9",
+    "vite-plugin-solid": "^2.3.0"
+  }
+}
